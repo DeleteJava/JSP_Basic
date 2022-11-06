@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>table : 표 작성 태그</h1>
+   <hr>
+
+    <!-- 
+        table   : 표를 생성. 단독으론 의미 없음
+        tr      : table row. 표에 한 줄을 생성
+        td      : table data. 실제로 채워질 데이터 공간
+        th      : table headline. 채워질 데이터의 이름을 주로 명시
+
+    -->
+
+   <table border="1"cellspacing="0" cellpadding="10">
+        <tr>
+            <th>이름</th>
+            <th>나이</th>
+            <th>신장</th>
+            <th>주소</th>
+        </tr>
+        <tr>
+            <td>홍길동</td>
+            <td>22</td>
+            <td>176.3</td>
+            <td>부산광역시 해운대구</td>
+        </tr>
+
+        <tr>
+            <!-- rowspan : 행을 합침 (= 위 아래를 합친다) -->
+            <td rowspan="2">김길동</td>
+            <td>35</td>
+            <td>183.1</td>
+            <td>서울특별시 종로구</td>
+        </tr>
+
+        <tr>
+            <!-- colspan : 열을 합침 (=좌 우를 합친다) -->
+            <td colspan="2">36</td>
+            <td>서울 특별시 강남구</td>
+        </tr>
+
+
+   </table>
+    
+
+
+
+
+
+</body>
+</html>

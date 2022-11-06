@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>img 태그</h1>
+    <hr>
+
+    <!-- 웹 브라우저에서 F12번을 누르면 '개발자 도구'가 나온다 
+    
+    ※ HTML 태그들은 모두 기본적으로
+    Block 혹은 in-line 태그 들 중 하나의 속성을 가진다
+    
+    1. Block 태그 : 태그가 한 줄 전체를 차지하며, 위에서 아래로 쌓인다
+    2. In-line 태그 : 태그가 한 줄에 여러개가 배치된다
+
+    -->
+
+    <img src="src/dora.png">
+    
+    <img src="src/dora.png"width="250">
+    <!-- width는 가로 폭을 지정, 높이는 비율 맞게 같이 변화 -->
+
+    <img src="src/dora.png" height="300">
+    <!-- height는 세로 높이를 지정, 폭은 비율 맞게 같이 변화-->
+
+
+    <img src="src/dora.png" width="400" height="200">
+    <!-- 폭, 너비를 같이 주면 비율이 깨진다 -->
+
+    <hr> <!-- 한줄을 차지하기 때문에 hr도 블록태그-->
+
+    <a href="https://www.naver.com" target="_blank">
+        <img src="src/dora.png" title="클릭시 네이버로 이동">
+
+    </a>
+    <!-- title : 이미지에 마우스를 올리면 나타나는 문구 -->
+
+
+    <img src="src/dora22.png" alt="존재하지 않는 이미지">
+    <!-- alt : 이미지가 없을때 대체하는 구문 -->
+
+
+</body>
+</html>
